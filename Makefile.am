@@ -2,7 +2,7 @@ noinst_LTLIBRARIES = libipset.la
 
 bdd_src = src/libipset/bdd/assignments.c \
 		  src/libipset/bdd/basics.c \
-		  src/libipset/bdd/libipset/bdd-iterator.c \
+		  src/libipset/bdd/bdd-iterator.c \
 		  src/libipset/bdd/expanded.c \
 		  src/libipset/bdd/reachable.c \
 		  src/libipset/bdd/read.c \
