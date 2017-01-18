@@ -21,7 +21,7 @@ set_src = src/libipset/set/allocation.c \
 		  src/libipset/set/iterator.c \
 		  src/libipset/set/storage.c
 
-libipset_la_SOURCES = general.c ${bdd_src} ${map_src} ${set_src}
+libipset_la_SOURCES = src/libipset/general.c ${bdd_src} ${map_src} ${set_src}
 libipset_la_CFLAGS = -I$(top_srcdir)/libipset/include -I$(top_srcdir)/libcork/include
 
 libipset_la_LDFLAGS = -static
