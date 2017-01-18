@@ -2,7 +2,7 @@ noinst_LTLIBRARIES = libipset.la
 
 bdd_src = src/libipset/bdd/assignments.c \
 		  src/libipset/bdd/basics.c \
-		  src/libipset/bdd/src/libipset/bdd-iterator.c \
+		  src/libipset/bdd/libipset/bdd-iterator.c \
 		  src/libipset/bdd/expanded.c \
 		  src/libipset/bdd/reachable.c \
 		  src/libipset/bdd/read.c \
@@ -10,14 +10,14 @@ bdd_src = src/libipset/bdd/assignments.c \
 
 map_src = src/libipset/map/allocation.c \
 		  src/libipset/map/inspection.c \
-		  src/libipset/map/ipv4_src/libipset/map.c \
-		  src/libipset/map/ipv6_src/libipset/map.c \
+		  src/libipset/map/ipv4/map.c \
+		  src/libipset/map/ipv6/map.c \
 		  src/libipset/map/storage.c
 
 set_src = src/libipset/set/allocation.c \
 		  src/libipset/set/inspection.c \
-		  src/libipset/set/ipv4_src/libipset/set.c \
-		  src/libipset/set/ipv6_src/libipset/set.c \
+		  src/libipset/set/ipv4/set.c \
+		  src/libipset/set/ipv6/set.c \
 		  src/libipset/set/iterator.c \
 		  src/libipset/set/storage.c
 
